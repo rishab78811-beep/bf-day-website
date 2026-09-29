@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>7 Months, 1000 Stories ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Ambient background -->
+    <div class="sky"></div>
+    <div class="stars"></div>
+    <div id="particles"></div>
+
+    <!-- Top navigation -->
+    <header class="topbar">
+
+        <button class="brand" onclick="homeScreen()">
+            ♡ OUR STORY
+        </button>
+
+        <div class="nav-center">
+
+            <button onclick="goToWorld('story')">
+                Our Story
+            </button>
+
+            <button onclick="goToWorld('games')">
+                Game Zone
+            </button>
+
+            <button onclick="goToWorld('special')">
+                Boyfriend's Day
+            </button>
+
+        </div>
+
+        <button class="share-btn" onclick="shareWebsite()">
+            Share ♡
+        </button>
+
+    </header>
+
+
+    <!-- Main screen -->
+    <main id="app"></main>
+
+
+    <!-- Cinematic transition -->
+    <div id="transition">
+
+        <div class="transition-stars"></div>
+
+        <div class="transition-heart">
+            ♥
+        </div>
+
+        <div class="transition-text">
+            our little story...
+        </div>
+
+    </div>
+
+
+    <!-- Toast -->
+    <div id="toast"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
